@@ -1,0 +1,11 @@
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+.inner {
+    width: 20%;
+    height: 20%;
+    margin-right: 10px;
+
+}
