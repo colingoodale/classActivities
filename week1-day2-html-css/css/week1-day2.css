@@ -7,6 +7,9 @@ body {
 
 }
 header {
+    color: #333333;
+}
+h1 {
     color: #eee;
     font-size: 28px;
     text-align: center;
