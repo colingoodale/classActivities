@@ -1,0 +1,13 @@
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+lorem {
+    font-weight: bold;
+}
+.ipsum {
+    font-size: 24px;
+}
+.esketit {
+    line-height: 50px;
+}
