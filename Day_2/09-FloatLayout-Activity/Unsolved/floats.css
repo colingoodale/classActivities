@@ -70,8 +70,11 @@ aside {
   float: left;
   background-color: #fff;
   height: 100%;
-  width: 50%;
+  width: 50px;
 }
 
 footer {
+  float: left;
+  height: 33%;
+  width: 100%;
 }
