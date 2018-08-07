@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <div class="container"></div>
+
+    <h1></h1>
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <script>
+        // SELECT THE CONTAINER DIV USING JQUERY
+        //APPEND H1 Element to CONTAINER DIV
+
+        var emojiOptions = ["❤", "💕", "💖", "🙌"]
+
+        var intervalId = setInterval(update, 2000);
+
+        var currentEmoji = 0;
+
+
+        function update() {
+            if (currentEmoji > currentEmoji.length - 1) {
+                currentEmoji = 0;
+            }
+            // update the DOM
+            $('.container').text(emojiOptions[currentEmoji]);
+            currentEmoji++;
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
