@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <script>
+        //index variable
+        var index = [1, 7, 6, 5, 78, 3, 87, 56, 8, 35, 524, 41, 5, 65, 76, 4];
+        // sorted acts as a flag  to let us know if our array has been completely sorted
+        var sorted = false;
+
+        //While loop looking at sorted tag
+        while (!sorted) {
+            //reset sorted to true at the beginning of loop, once returned as true, will stop this loop
+            sorted = true;
+            //loop the the array
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] > arr[i + 1]) {
+                    sorted = false;
+                    var temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                }
+            }
+        }
+        //if we looped through the array without having the swap anything, exit the while loop and return arr
+        return arr;
+    }
+
+
+
+
+
+    </script>
+</body>
+
+</html>
